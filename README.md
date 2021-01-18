@@ -10,4 +10,4 @@
 
 ## image
 
-[my-pics](photos/photo-project)
+![my-pics](photos/photo-project.png)
