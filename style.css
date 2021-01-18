@@ -1,0 +1,18 @@
+*,::before,::after{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 100px;
+    display: inline-block;
+    background-color: gray;
+    margin-top: 20px;
+}
+p{
+display: inline-block;
+position: relative;
+bottom: 40px;
+
+    
+}
