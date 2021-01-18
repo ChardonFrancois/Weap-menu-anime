@@ -6,6 +6,6 @@
 - CSS
 
 ## link to my project
-![my-link](https://chardonfrancois.github.io/Weap-menu-anime/)
+[my-link](https://chardonfrancois.github.io/Weap-menu-anime/)
 
 ## image
