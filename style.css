@@ -3,16 +3,50 @@
     margin: 0px;
     padding: 0px;
 }
+
+ul {
+    width: 100%;
+    height: 100vh;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
 img{
     width: 100px;
     display: inline-block;
-    background-color: gray;
-    margin-top: 20px;
+    background-color: rgb(179, 179, 179);
+}
+
+.p-box {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(179, 179, 179);
+    opacity: 0;
+}
+
+img:hover + .p-box {
+    animation: anim 1s ease forwards
+}
+
+@keyframes anim{
+    0%{
+        transform: translateX(-50px);
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 p{
-display: inline-block;
-position: relative;
-bottom: 40px;
-
-    
+    color:white;
+}
+body{
+    background-color: gray;
 }
