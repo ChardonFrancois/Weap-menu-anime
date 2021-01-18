@@ -9,3 +9,5 @@
 [my-link](https://chardonfrancois.github.io/Weap-menu-anime/)
 
 ## image
+
+![my-pics](photos/photo-project)
